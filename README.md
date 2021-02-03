@@ -1,6 +1,6 @@
 # Context_22_GuardiumRestAPI
 
-Contains a basic but working Python3 script for executing a RestAPI against a Guardium appliance to execute a report.
+Contains a fully working Python3 script for executing a RestAPI against a Guardium appliance to execute a report.
 
 In particular in contains and execute all the Authentication part in python, something I have not found readily available.
 
