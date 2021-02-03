@@ -1,5 +1,7 @@
 # Context_22_GuardiumRestAPI
 
+
+# Script #1 : Running a report
 Contains a fully working Python3 script for executing a RestAPI against a Guardium appliance to execute a report.
 
 In particular in contains and execute all the Authentication part in python, something I have not found readily available.
@@ -20,8 +22,16 @@ Example :
 - generate (optionally from sample TrafficVerif.json) the file containing the name of your report and its parameters
 - run as follows:
      python3 Report_D.py TrafficVerif
-     
-I tested this from a Linux server
+
+# Script #2 : Restarting an STAP using GIM restAPI by updating the GIM parameters
+
+This script takes 2 arguments : 1/ the file containing the parameter to change , 2/ the client name/ip to restart
+example: python3 Restart_C.py restart.json xx.xx.xx.xx
+
+The json file can contain any parameter to change and its value. The sample is for restarting an STAP. The push (install) is included and set at NOW
+
+
+I tested those 2 scripts from a Linux server
 
 Have fun.
 
