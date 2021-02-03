@@ -31,7 +31,7 @@ param file #2 : restart.json - name of your choice - first argument
 
 This script takes 2 arguments : 1/ the file containing the parameter to change , 2/ the client name/ip to restart
 
-example: python3 Restart_C.py restart.json xx.xx.xx.xx
+example: python3 Restart_E.py restart.json xx.xx.xx.xx
 
 The json file can contain any parameter to change and its value. The sample is for restarting an STAP. The push (install) is included and set at NOW
 
