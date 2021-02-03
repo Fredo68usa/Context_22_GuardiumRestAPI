@@ -1,0 +1,1 @@
+{"reportName":"Traffic Verification","indexFrom":"1","reportParameter": {"QUERY_FROM_DATE":"NOW -10 MINUTE","QUERY_TO_DATE":"NOW","ServerIP":"%","SenderIP":"%","ServerType":"%","SHOW_ALIASES":"TRUE","REMOTE_SOURCE":"wwww.com"}}
