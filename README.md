@@ -24,7 +24,7 @@ Example :
      python3 Report_D.py TrafficVerif
 
 # Script #2 : Restarting an STAP using GIM restAPI by updating the GIM parameters
-script : Restart_C.py 
+script : Restart_E.py 
 
 param file #1 : param_data.json - Mandatory - Update this file to include the connection information 
 param file #2 : restart.json - name of your choice - first argument
